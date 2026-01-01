@@ -2,7 +2,7 @@
 // @name         RTaO Bypass Loader
 // @namespace    rtaobypasser
 // @version      0.0.2
-// @description  Loader for RTaO Bypass - โหลดสคริปต์หลักจาก GitHub อัตโนมัติ
+// @description  rtaodev
 // @author       rtao.exe
 // @match        https://work.ink/*
 // @match        *://direct-link.net/*
