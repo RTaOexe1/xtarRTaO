@@ -32,7 +32,7 @@
 // @match        *://links-loot.com/s?*
 // @match        *://linksloot.net/s?*
 // @run-at       document-end
-// @downloadURL  https://github.com/elfuhh/bypass/raw/main/bypass.user.js
-// @updateURL    https://github.com/elfuhh/bypass/raw/main/bypass.user.js
-// @require https://github.com/elfuhh/bypass/raw/refs/heads/main/bypass.js
+// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
+// @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
+// @require https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao-omg.js
 // ==/UserScript==
