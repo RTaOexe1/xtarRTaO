@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         RTaO Bypass
+// @name         RTaO Bypass Loader
 // @namespace    rtaobypasser
 // @version      0.0.2
-// @description  RTaO Bypass
+// @description  Loader for RTaO Bypass - โหลดสคริปต์หลักจาก GitHub อัตโนมัติ
 // @author       rtao.exe
 // @match        https://work.ink/*
 // @match        *://direct-link.net/*
@@ -32,7 +32,15 @@
 // @match        *://links-loot.com/s?*
 // @match        *://linksloot.net/s?*
 // @run-at       document-end
-// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
 // @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
-// @require https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao-omg.js
+// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
+// @grant        none
 // ==/UserScript==
+
+(function() {
+  const mainScript = "https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao-omgx.user.js";
+  const script = document.createElement("script");
+  script.src = mainScript;
+  script.async = false;
+  document.documentElement.appendChild(script);
+})();
