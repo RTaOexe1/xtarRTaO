@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name         RTaO Bypass
+// @name         RTaO Loader (simple)
 // @namespace    rtaobypasser
-// @version      1.0.1
-// @description  RTaO Userscript
+// @version      1.0.2
+// @description  Simple loader for RTaO main script (no key injection)
 // @author       rtao.exe
-// @icon         https://img5.pic.in.th/file/secure-sv1/10000727975198518d64ff4df6.png
 // @match        *://*.work.ink/*
 // @match        *://*.direct-link.net/*
 // @match        *://*.link-target.net/*
@@ -25,19 +24,30 @@
 // @match        *://*.rinku.pro/*
 // @match        *://*.mboost.me/*
 // @match        *://*.hydrogen.lat/*
-// @grant        GM_getValue
-// @grant        GM_setValue
-// @grant        GM_registerMenuCommand
-// @grant        GM_xmlhttpRequest
-// @connect      *
+// @grant        none
 // @run-at       document-start
 // ==/UserScript==
 (function () {
   "use strict";
-  const mainScript = "https://cdn.jsdelivr.net/gh/RTaOexe1/xtarRTaO@main/rtao-omg.user.js";
-  const s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = mainScript;
-  s.async = false;
-  (document.head || document.documentElement).appendChild(s);
+  const MAIN_SCRIPT = "https://cdn.jsdelivr.net/gh/RTaOexe1/xtarRTaO@main/rtao-omg.user.js";
+  try {
+    if (window.__RTaO_MAIN_LOADED) {
+      console.log("[RTaO Loader] main already loaded");
+      return;
+    }
+    const s = document.createElement("script");
+    s.type = "text/javascript";
+    s.src = MAIN_SCRIPT;
+    s.async = false;
+    s.onload = function () {
+      window.__RTaO_MAIN_LOADED = true;
+      console.log("[RTaO Loader] main script loaded");
+    };
+    s.onerror = function (e) {
+      console.error("[RTaO Loader] failed to load main script", e);
+    };
+    (document.head || document.documentElement).appendChild(s);
+  } catch (e) {
+    console.error("[RTaO Loader] error", e);
+  }
 })();
