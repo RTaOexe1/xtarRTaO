@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTaO Bypass
 // @namespace    rtaobypasser
-// @version      1.0.9
+// @version      1.0.8
 // @description  RTaO Userscript
 // @author       rtao.exe
 // @icon         https://img5.pic.in.th/file/secure-sv1/10000727975198518d64ff4df6.png
