@@ -29,7 +29,7 @@
 // ==/UserScript==
 (function () {
   "use strict";
-  const MAIN_SCRIPT = "https://cdn.jsdelivr.net/gh/RTaOexe1/xtarRTaO@main/rtao-omg.user.js";
+  const MAIN_SCRIPT = "https://cdn.jsdelivr.net/gh/RTaOexe1/xtarRTaO@main/rtaobypass.user.js";
   try {
     if (window.__RTaO_MAIN_LOADED) {
       console.log("[RTaO Loader] main already loaded");
