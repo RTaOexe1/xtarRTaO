@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTaO USERSCRIPT
 // @namespace    rtaobypasser
-// @version      1.0.2
+// @version      1.0.1
 // @description  RTaO.MTF
 // @author       rtao.exe
 // @match        *://*.work.ink/*
