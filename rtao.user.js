@@ -1,34 +1,4 @@
 // ==UserScript==
-// @name         RTaO USERSCRIPT
-// @namespace    rtaobypasser
-// @version      1.0.1
-// @description  RTaO.MTF
-// @author       rtao.exe
-// @match        *://*.work.ink/*
-// @match        *://*.direct-link.net/*
-// @match        *://*.link-target.net/*
-// @match        *://*.link-to.net/*
-// @match        *://*.link-center.net/*
-// @match        *://*.link-hub.net/*
-// @match        *://*.link4sub.com/*
-// @match        *://*.up-to-down.net/*
-// @match        *://*.linkvertise.com/*
-// @match        *://*.link-unlock.com/*
-// @match        *://*.auth.platorelay.com/*
-// @match        *://*.auth.platoboost.me/*
-// @match        *://*.auth.platoboost.app/*
-// @match        *://*.pandadevelopment.net/*
-// @match        *://*.keyrblx.com/*
-// @match        *://*.bstlar.com/*
-// @match        *://*.rekonise.com/*
-// @match        *://*.rinku.pro/*
-// @match        *://*.mboost.me/*
-// @match        *://*.hydrogen.lat/*
-// @grant        none
-// @run-at       document-start
-// ==/UserScript==
-
-// ==UserScript==
 // @name         RTaO Bypass
 // @namespace    rtaobypasser
 // @version      0.0.2
