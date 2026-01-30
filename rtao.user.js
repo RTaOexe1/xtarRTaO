@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         RTaO Loader (simple)
+// @name         RTaO USERSCRIPT
 // @namespace    rtaobypasser
 // @version      1.0.2
-// @description  Simple loader for RTaO main script (no key injection)
+// @description  RTaO.MTF
 // @author       rtao.exe
 // @match        *://*.work.ink/*
 // @match        *://*.direct-link.net/*
