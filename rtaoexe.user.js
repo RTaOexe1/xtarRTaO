@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         RTaO Bypass
 // @namespace    rtaobypasser
-// @version      1.1.0
+// @version      1.1.1
 // @description  RTaO Userscript
 // @author       rtao.exe
-// @icon         https://img5.pic.in.th/file/secure-sv1/10000727975198518d64ff4df6.png
 // @match        *://*.work.ink/*
-// @match        *://*.direct-link.net/*is 
+// @match        *://*.direct-link.net/*
 // @match        *://*.link-target.net/*
 // @match        *://*.link-to.net/*
 // @match        *://*.link-center.net/*
@@ -31,9 +30,11 @@
 // @match        *://*.boblox-script.com/*
 // @match        *://*.shrinkme.click/*
 // @match        *://*.shrtslug.biz/*
+// @match        *://*.tpi.li/*
 // @match        *://*.lnbz.la/*
 // @match        *://*.linkzy.space/*
 // @match        *://*.lockr.so/*
+// @match        *://*.yorurl.com/*
 // @match        *://*.loot-link.com/s?*
 // @match        *://*.loot-links.com/s?*
 // @match        *://*.lootlink.org/s?*
@@ -43,8 +44,8 @@
 // @match        *://*.lootdest.com/s?*
 // @match        *://*.links-loot.com/s?*
 // @match        *://*.linksloot.net/s?*
-// @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaoexe.user.js
-// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaoexe.user.js
+// @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaobypass.user.js
+// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaobypass.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      *
 // @run-at       document-start
