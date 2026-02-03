@@ -44,8 +44,8 @@
 // @match        *://*.lootdest.com/s?*
 // @match        *://*.links-loot.com/s?*
 // @match        *://*.linksloot.net/s?*
-// @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaobypass.user.js
-// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaobypass.user.js
+// @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaoexe.user.js
+// @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaoexe.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      *
 // @run-at       document-start
