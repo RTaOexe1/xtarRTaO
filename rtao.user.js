@@ -46,6 +46,7 @@
 // @match        *://*.linksloot.net/s?*
 // @updateURL    https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
 // @downloadURL  https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtao.user.js
+// @require      https://raw.githubusercontent.com/RTaOexe1/xtarRTaO/main/rtaoexe.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      *
 // @run-at       document-start
