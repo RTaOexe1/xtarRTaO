@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         RTaO Bypass
 // @namespace    rtaobypasser
-// @version      1.0.4
-// @description  RTaO Userscript (Full-screen Bypass Result Overlay)
+// @version      1.1.1
+// @description  RTaO Userscript
 // @author       rtao.exe
 // @match        *://*.work.ink/*
 // @match        *://*.direct-link.net/*
@@ -51,11 +51,3 @@
 // @connect      *
 // @run-at       document-start
 // ==/UserScript==
-
-(function() {
-  const mainScript = "https://cdn.jsdelivr.net/gh/RTaOexe1/xtarRTaO@main/rtaoexe.user.js";
-  const s = document.createElement("script");
-  s.src = mainScript;
-  s.async = false;
-  document.documentElement.appendChild(s);
-})();
